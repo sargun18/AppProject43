@@ -118,7 +118,6 @@ public class NewMapController {
             cancelButtonAction();
         }
     }
-
     /**
      * To cancel the new map window.
      */
@@ -127,5 +126,6 @@ public class NewMapController {
         Stage stage = (Stage) newmapCancelbutton.getScene().getWindow();
         stage.close();
     }
+
 
 }
